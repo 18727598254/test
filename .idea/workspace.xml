@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25d50f1d-9daa-4f96-9d0b-fe659fd8afb9" name="Default Changelist" comment="ces">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/AnonymousAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/DataPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/rest/AnonymousDeleteMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/rest/AnonymousGetMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/rest/AnonymousPatchMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/rest/AnonymousPostMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/annotation/rest/AnonymousPutMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/aspect/LimitAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/aspect/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/vo/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/vo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/base/vo/ResultObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/config/FileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/config/HxPermissionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/config/RsaProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/constant/ActivitiConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/constant/CacheKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/constant/RequestMethodEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/constant/SecurityConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/constant/SettingConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/enumeration/CodeBiEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/enumeration/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/enumeration/DataScopeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/exception/EntityExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/exception/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/exception/HxException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/exception/handler/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/thread/AsyncTaskExecutePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/thread/AsyncTaskProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/thread/TheadFactoryName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/thread/ThreadPoolExecutorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/EncryptUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/QueryHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/SnowFlakeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/ThrowableUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/TranslatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-common/src/main/java/com/hx/util/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/annotation/type/LogActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/dao/LogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/domain/dto/LogErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/domain/dto/LogQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/domain/dto/LogSmallDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/domain/entity/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/domain/mapstruct/LogErrorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/domain/mapstruct/LogSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-log/src/main/java/com/hx/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/SkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/config/AuditorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/config/ConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/config/JobRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/controller/QuartzController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/dao/QuartzJobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/dao/QuartzLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/domain/entity/QuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/domain/entity/QuartzLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/domain/query/QuartzJobQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/domain/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/service/QuartzJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/service/impl/QuartzJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/util/ExecutionJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/util/QuartzManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/quartz/util/QuartzRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/config/ConfigBeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/config/bean/LoginCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/config/bean/LoginCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/config/bean/LoginProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/config/bean/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/controller/OnlineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/AddNewRolesResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/AllPowersResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/AuthUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/BasePowerItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/CommonResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/JwtUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/MenuBasicInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/MenuListResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/OnlineUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/PowerSettingItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/dto/UserInitDataResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/entity/JwtAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/entity/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/entity/TokenConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/entity/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/domain/entity/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/service/OnlineUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/service/UserCacheClean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/security/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/DictDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/LimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/controller/VerifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/DictDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/DictDetailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/JobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/DeptDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/DeptSmallDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/DictDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/DictDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/DictSmallDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/JobDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/JobSmallDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/JsonWebTokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/MenuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/RoleSmallDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/DictDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/DeptSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/DictDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/DictSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/JobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/JobSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/RoleSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/mapstruct/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/DeptQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/DictDetailQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/DictQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/JobQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/MenuQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/RoleQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/vo/MenuMetaVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/vo/MenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/domain/vo/UserPassVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/DictDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/VerifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/DataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/DictDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/java/com/hx/module/system/service/impl/VerifyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/docker/hx-system-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/ip2region/ip2region.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/template/email/email.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/template/generator/front/api.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-system/src/main/resources/template/generator/front/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/config/MultipartConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/controller/LocalStorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/controller/PictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/dao/EmailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/dao/LocalStorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/dao/PictureDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/dto/LocalStorageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/dto/LocalStorageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/dto/PictureQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/entity/EmailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/entity/LocalStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/entity/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/domain/vo/EmailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/LocalStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/PictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/impl/LocalStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/impl/PictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/service/mapstruct/LocalStorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hx-tool/src/main/java/com/hx/util/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/admin.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unknown" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="test" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\work\test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Developer/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\Developer\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1t3jg8Ake7B9Wj1TbvB4MzAss2x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hx-common/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\test" />
+      <recent name="D:\work\test\system" />
+      <recent name="D:\work\test\hx-common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\test\common\src\main\java" />
+      <recent name="D:\work\test\hx-common\src" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hx-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hx.SkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25d50f1d-9daa-4f96-9d0b-fe659fd8afb9" name="Default Changelist" comment="" />
+      <created>1622004774693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622004774693</updated>
+      <workItem from="1622004778645" duration="2123000" />
+      <workItem from="1622006925183" duration="3747000" />
+      <workItem from="1622010708195" duration="688000" />
+    </task>
+    <task id="LOCAL-00001" summary="ces">
+      <created>1622005313827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622005313827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="w">
+      <created>1622005969281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622005969281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ces" />
+    <MESSAGE value="w" />
+    <option name="LAST_COMMIT_MESSAGE" value="w" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="399" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622005284369">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="399" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1622005284369" />
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1622005966591">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1622005966591" />
+    <state x="423" y="84" key="FileChooserDialogImpl" timestamp="1622009994283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="423" y="84" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622009994283" />
+    <state x="464" y="253" width="377" height="175" key="Github.CreateGistDialog" timestamp="1622004879688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="464" y="253" width="377" height="175" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1622004879688" />
+    <state x="517" y="230" width="271" height="220" key="Github.ShareDialog" timestamp="1622005214230">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="517" y="230" width="271" height="220" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1622005214230" />
+    <state x="510" y="45" key="Github.UntrackedFilesDialog" timestamp="1622005226300">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="510" y="45" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1622005226300" />
+    <state width="949" height="86" key="GridCell.Tab.0.bottom" timestamp="1622011415702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="949" height="86" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622011415702" />
+    <state width="949" height="86" key="GridCell.Tab.0.center" timestamp="1622011415702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="949" height="86" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622011415702" />
+    <state width="949" height="86" key="GridCell.Tab.0.left" timestamp="1622011415701">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="949" height="86" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622011415701" />
+    <state width="949" height="86" key="GridCell.Tab.0.right" timestamp="1622011415702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="949" height="86" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622011415702" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1622010736857">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1622010736857" />
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1622005987810">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622005987810" />
+    <state x="323" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1622010708665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="323" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622010708665" />
+    <state x="321" y="78" width="638" height="524" key="find.popup" timestamp="1622007301411">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="78" width="638" height="524" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1622007301411" />
+    <state x="54" y="52" key="new project wizard" timestamp="1622006592065">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="54" y="52" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1622006592065" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1622007871500">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1622007871500" />
+  </component>
+</project>

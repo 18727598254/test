@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fix.iml" filepath="$PROJECT_DIR$/fix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-generator/generator.iml" filepath="$PROJECT_DIR$/hx-generator/generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-common/hx-common.iml" filepath="$PROJECT_DIR$/hx-common/hx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-log/hx-log.iml" filepath="$PROJECT_DIR$/hx-log/hx-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-system/hx-system.iml" filepath="$PROJECT_DIR$/hx-system/hx-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-tool/hx-tool.iml" filepath="$PROJECT_DIR$/hx-tool/hx-tool.iml" />
     </modules>
   </component>
 </project>
